@@ -6,6 +6,19 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="AttrThemeStyle">@style/AttrUseThemeStyle</item>
+    </style>
+
+    <style name="AttrUseXmlStyle">
+        <item name="attrTvName">"在 View 的 xml 中声明 style，通过 style 间接指定属性"</item>
+    </style>
+
+    <style name="AttrUseThemeStyle">
+        <item name="attrTvName">"在主题中指定某个 attr 的 style，并将该 attr 作为第三个参数传给 obtainStyledAttributes"</item>
+    </style>
+
+    <style name="AttrUseDirectStyle">
+        <item name="attrTvName">"通过 obtainStyledAttributes 的第四个参数直接传入一个 style，该 style 中的 item 指定字符串"</item>
     </style>
 
 </resources>

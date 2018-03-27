@@ -1,6 +1,16 @@
 <resources>
     <string name="app_name">AttrDemo</string>
 
-    <!-- 在 xml 中声明字符串 -->
-    <string name="attr_str_xml">StrXml</string>
+    <!-- 第一优先级：在 xml 中的对应属性直接声明字符串 -->
+    <string name="attr_str_xml_direct">"直接在 View 的 xml 中指定具体的属性"</string>
+
+    <!-- 第二优先级：在 xml 中的通过 style 属性声明字符串 -->
+    <string name="attr_str_xml_style">"在 View 的 xml 中声明 style，通过 style 间接指定属性"</string>
+
+    <!-- 第三优先级：为自定义 View 声明一个新的 attr，并在 theme 中给该 attr 指定一个对应的 style，该 style 中的 item 指定字符串 -->
+    <string name="attr_str_theme_style">为自定义 View 声明一个新的 attr，并在 theme 中给该 attr 指定一个对应的 style，该 style 中的 item 指定字符串</string>
+
+    <!-- 第四优先级：通过 obtainStyledAttributes 的第四个参数直接传入一个 style，该 style 中的 item 指定字符串 -->
+    <string name="attr_str_style_direct">通过 obtainStyledAttributes 的第四个参数直接传入一个 style，该 style 中的 item 指定字符串</string>
+
 </resources>

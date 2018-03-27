@@ -4,6 +4,7 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
-    <!-- 在 xml 中声明的颜色值 -->
-    <color name="attr_color_xml">#FF1923</color>
+    <!-- 在 xml 中直接声明的颜色值 -->
+    <color name="attrColorXmlDirect">#FF1923</color>
+
 </resources>
