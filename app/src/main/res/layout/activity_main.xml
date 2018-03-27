@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.demo.lizejun.attrdemo.AttrTextView
-        android:id="@+id/tv_content"
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/bt_switch"
+        android:text="切换夜间模式"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <com.demo.lizejun.attrdemo.NightModeTextView
+        android:id="@+id/tv_day_night"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:attrTvColor="@color/attrColorXmlDirect"/>
+        android:textSize="16sp"
+        app:dayNightAttr="@style/NightModeTextViewStyle"/>
 
-</FrameLayout>
+</LinearLayout>

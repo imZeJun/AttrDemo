@@ -5,4 +5,13 @@
         <attr name="attrTvName" format="string"/>
         <attr name="attrTvColor" format="color"/>
     </declare-styleable>
+
+    <declare-styleable name="DayNightStyleable">
+        <attr name="themeDayAttr" format="reference"/>
+        <attr name="themeNightAttr" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="ThemeCommonStyleable">
+        <attr name="dayNightAttr" format="reference"/>
+    </declare-styleable>
 </resources>
