@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AttrTextView">
+        <attr name="attr_tv_name" format="string"/>
+        <attr name="attr_tv_color" format="color"/>
+    </declare-styleable>
+</resources>

@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">AttrDemo</string>
+
+    <!-- 在 xml 中声明字符串 -->
+    <string name="attr_str_xml">StrXml</string>
 </resources>
